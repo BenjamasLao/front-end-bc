@@ -1,3 +1,142 @@
+<<<<<<< Updated upstream
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows:  100px 100px 100px; 
+    column-gap: 32px;
+    row-gap: 16px;
+    background-color: rgb(240, 216, 186);
+    justify-content: center; 
+    grid-template-areas: 
+    "Product header Product"
+    "Product Product Product" 
+    ;
+}  
+
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 200px auto 200px;
+}
+ 
+.menu {
+    grid-area: menu;
+}
+ 
+.main {
+    grid-area: main;
+}
+ 
+.right {
+    grid-area: right;
+}
+ 
+.footer {
+    grid-area: footer;
+}
+
+
+.item-special{
+    /* grid-column: 1/ span 3 ;
+    grid-row: 1/ span 2 ; */
+grid-area: 1 / 2 / span 4 / span 4;
+}
+
+body{
+    height: 100vh;
+}
+.flex-container{
+    
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: row ;  */
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-item{
+    /*background-color: rgb(191, 221, 234); */
+    padding: 16px;
+    /* border: 1px solid rgb(156, 94, 105);   */
+    min-width: 100px;
+    text-align: center;
+} 
+
+.feature{
+    order: -1;
+}
+
+.bodyIndex2 {
+    color: black;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid black;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 500;
+    padding: 8px 12px;
+    margin: 12px;
+    border-radius: 8px;
+    transition: all 0.9s;
+}
+
+.flix-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);   
+    grid-template-areas: 
+    "grid1 grid2 grid2 grid3"
+    "grid4 grid2 grid2 grid5" 
+    ;
+}
+
+.item1, .item1-special {
+ border: solid black;
+}
+
+.item1-special{
+    grid-area: grid2;
+}
+.flex-container1 {
+    display: flex;
+    /*flex-wrap: wrap;
+    flex-direction: row;*/
+    flex-flow: row wrap;
+    justify-content: left;
+    gap: 8px;
+}
+ 
+.flex-item1 {
+    display: flex;
+    padding: 8px 32px;
+    min-width: 100px;
+    flex-direction: column;
+    align-items: left;
+  }
+ 
+.button2 {
+    color: black;
+    display: inline-block;
+    min-width: 12px;
+    height: 32px;
+    background-color: hsla(47, 87%, 53%, 0.808);
+    border: white;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+=======
 p{
     color: red;
 }
+h1{
+    color: aqua;
+}
+>>>>>>> Stashed changes
