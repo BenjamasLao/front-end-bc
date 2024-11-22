@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -131,3 +132,11 @@ body{
 
 
 
+=======
+p{
+    color: red;
+}
+h1{
+    color: aqua;
+}
+>>>>>>> Stashed changes
